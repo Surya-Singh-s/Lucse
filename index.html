@@ -3,44 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CSE Team | Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>CSE Team - Surya Singh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #0e76a8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .projects a {
+            display: block;
+            background-color: #0e76a8;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .projects a:hover {
+            background-color: #00569c;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer a {
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>CSE Team</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <h1>Welcome to CSE Team - Surya Singh</h1>
     </header>
 
-    <section id="welcome">
-        <h2>Welcome to CSE Team</h2>
-        <p>We are a team of dedicated Computer Science students working on exciting projects.</p>
-    </section>
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <section id="projects">
-        <h2>Our Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of project 1. <a href="uploads/docs/project1.pdf" download>Download PDF</a></p>
+    <div class="container">
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <a href="https://linktoproject1.com">Project 1</a>
+                <a href="https://linktoproject2.com">Project 2</a>
+                <a href="https://linktoproject3.com">Project 3</a>
             </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of project 2. <a href="uploads/docs/project2.pdf" download>Download PDF</a></p>
-            </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:surya01785@gmail.com">surya01785@gmail.com</a></p>
+            <p>Phone: <a href="tel:+7571952689">+7571952689</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/surya-singh-0a4615261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Surya Singh</a></p>
+        </section>
+    </div>
 
     <footer>
-        <p>© 2024 CSE Team | Created by Surydeep Singh</p>
-        <p><a href="contact.html">Contact Us</a></p>
+        <p>&copy; 2024 CSE Team - Surya Singh</p>
     </footer>
-
-    <script src="scripts.js"></script>
 </body>
 </html>
